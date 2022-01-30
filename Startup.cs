@@ -57,8 +57,16 @@ namespace FirstWebProject
                 options.SlidingExpiration = true;
             });
 
+            services.AddAuthorization(x =>
+            {
+                x.AddPolicy("AdminArea", policy => { policy.RequireRole("admin"); });
+            });
+
             //add services for controllers and views
-            services.AddControllersWithViews();
+            services.AddControllersWithViews(x =>
+            {
+                x.Conventions.Add(new AdminAreaAuthorization("Admin", "AdminArea"));
+            });
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
