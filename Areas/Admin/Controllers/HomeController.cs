@@ -1,7 +1,7 @@
 ﻿using FirstWebProject.Domain;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MyCompany.Areas.Admin.Controllers
+namespace FirstWebProject.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class HomeController : Controller

@@ -17,6 +17,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Areas\Admin\Views\ServiceItems\Edit.cshtml" />
+    <None Include="Areas\Admin\Views\TextFields\Edit.cshtml" />
     <None Include="Views\Account\Login.cshtml" />
     <None Include="bundleconfig.json" />
     <None Include="compilerconfig.json" />
