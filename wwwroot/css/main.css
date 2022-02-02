@@ -1638,3 +1638,7 @@ ul.link-list li:first-child {
   max-width: 100%;
   margin: 0 auto;
 }
+
+.sidebar {
+  margin-left: 600px;
+}

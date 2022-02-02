@@ -10,7 +10,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\ViewComponents\" />
     <Folder Include="wwwroot\css\" />
     <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\js\" />
@@ -22,6 +21,16 @@
     <None Include="Views\Account\Login.cshtml" />
     <None Include="bundleconfig.json" />
     <None Include="compilerconfig.json" />
+    <None Include="Views\Services\Index.cshtml" />
+    <None Include="Views\Services\Show.cshtml" />
+    <None Include="Views\Shared\Components\Sidebar\Default.cshtml" />
+    <None Include="wwwroot\sass\libs\_breakpoints.scss" />
+    <None Include="wwwroot\sass\libs\_functions.scss" />
+    <None Include="wwwroot\sass\libs\_html-grid.scss" />
+    <None Include="wwwroot\sass\libs\_mixins.scss" />
+    <None Include="wwwroot\sass\libs\_vars.scss" />
+    <None Include="wwwroot\sass\libs\_vendor.scss" />
+    <None Include="wwwroot\sass\main.scss" />
   </ItemGroup>
 
   <ItemGroup>

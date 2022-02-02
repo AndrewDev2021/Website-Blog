@@ -797,19 +797,24 @@
 
 	}
 
-	.div-box{
+	.div-box {
 		padding: 15px 0;
 
 		label {
 			display: block;
 		}
-		
-		a{
+
+		a {
 			display: block;
 		}
 	}
+
 	.img-block {
 		display: block;
 		max-width: 100%;
-		margin: 0 auto;
+		margin:0 auto;
+	}
+
+	.sidebar {
+		margin-left :600px;
 	}
